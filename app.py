@@ -21,7 +21,6 @@ def recommend(movie):
     return recommended_movies
 
 
-
 st.title("Movie Recommendation System")
 
 selected_movie_name = st.selectbox(
